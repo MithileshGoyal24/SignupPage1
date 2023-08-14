@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background:lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.flex-container
+{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-between;
+}
+.login{
+  width:800px;
+  min-height: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  background :white;
+  display: flex;
+  box-shadow: 15px 5px 30px rgba(0,0,0,0.3);
+}
+.content{
+  flex-basis: 50%;
+display: flex;
+height: 200%;
+align-items: center;
+flex-direction: column;
+background:lightgrey;
+justify-content: space-around;
+}
+.content img{
+  width:100%;
+  display: flex;
+}
+.loginform{
+flex-basis: 50%;
+background: white;
+font-family: roboto;
+padding: 25px;
+}
+.loginform h1{
+ 
+  font-size: larger;
+  
+}
+input{
+  width: 100%;
+  height: 35px;
+  background-color:light;
+  border-width: 0.3px 0px 0.3px 0px;
+}
+button{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color:rgb(230, 156, 19);
+  color: white;
+}
+.btm{
+  display: flex;
+  justify-content: space-between;
+
+}
+.btm1{
+  display: flex;
+  justify-content: center;
+
+}
+
+.xyz{
+  flex-direction: row-reverse;
+}
+.abc{
+  text-align: center;
+  column-span: all;
+ 
+}
+div {
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+a{
+  text-decoration: none;
+}
+
+
